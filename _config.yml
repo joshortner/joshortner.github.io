@@ -21,7 +21,8 @@ github_username: "joshortner"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+#theme: "minima"
+remote_theme: "rosario/kasper"
 
 #rss: rss
 

@@ -37,6 +37,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+markdown: kramdown
+
 # Default frontmatter
 defaults:
   -
@@ -45,6 +47,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+pages: 
+  - projects
 
 
 

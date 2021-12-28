@@ -2,4 +2,20 @@
 layout: default
 ---
 
-{{ content }}
+    {{ content }}
+
+<div class="posts-lists">
+    <h2>Blog posts</h2>
+    <ul class="posts-lists-posts">
+        {% for post in site.posts %}
+        <li>
+            <h3>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }}
+                <small>{{ post.date | date_to_string }}</small>
+            </a>
+            </h3>
+        </li>
+        {% endfor %}
+    </ul>
+    </div>

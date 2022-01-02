@@ -63,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
+  min-height: calc(100% - 200px); /* TO DO: 100px refers to footer height, create var for this */
+  height: auto;
 }
 
 
@@ -293,7 +295,6 @@ a.sidebar-nav-item:focus {
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
 }
-
 
 /*
  * Posts and pages

@@ -18,14 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Josh Ortner Website
-email: jlortner@gmail.com
+title: Josh's Site
+author:
+  name: GitHub User
+  email: your-email@domain.com
+#email: jlortner@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A site to showcase what I'm learning and working on.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username: joshortner
+
+social:
+  github_username: joshortner
 
 # Build settings
 #theme: minima
@@ -39,17 +44,11 @@ plugins:
 
 markdown: kramdown
 
-# Default frontmatter
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
 pages: 
   - projects
+
+sass:
+    sass_dir: _sass
 
 
 

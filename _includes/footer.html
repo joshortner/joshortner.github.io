@@ -1,0 +1,37 @@
+<div class="footer">
+  <div class="footer-container">
+    <div class="footer-heading">
+      {{ site.title }}
+    </div>
+    <div class="footer-body">
+      <div class="footer-body-left">
+        Left
+      </div>
+      <div class="footer-body-middle">
+        <ul>
+        {% if site.social.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.social.github_username }}">
+              <img src="{{ '/public/github-icon.png' | absolute_url }}"></img>
+              <span>{{ site.social.github_username }}</span>
+            </a>
+            
+            
+          </li>
+        {% endif %}
+        </ul>
+      </div>
+      <div class="footer-body-right">
+        {{ site.description }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+<a href="https://github.com/{{ site.social.github_username }}">
+              <svg src="{{ '/public/minima-social-icons.svg#github' | relative_url }}"></svg>
+              <span>Some text</span>
+            </a>
+
+-->

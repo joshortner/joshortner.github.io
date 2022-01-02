@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Workspace Automation Project
+title: Workflow Automation Project
 type: project
+permalink: workflow-automation-project
 ---
 
-The following is the README.md from my Workflow Automation project. The goal of the project is to consolidate automation scripts in a single Python package that I can maintain and have access to from any machine. Here's a link to the GitHub page: [Link text Here](https://github.com/joshortner/WorkflowAutomation).
+The following is the README.md from my Workflow Automation project. The goal of the project is to consolidate automation scripts in a single Python package that I can maintain and have access to from any machine. [Here's](https://github.com/joshortner/WorkflowAutomation) a link to the GitHub page.
+
+---
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 

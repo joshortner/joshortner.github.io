@@ -67,8 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-/* screen upto 500px */
-@media (max-width: 500px){
+@media (max-width: 800px){
 
   .wrap {
     min-height: calc(100% - 300px); /* TO DO: 100px refers to footer height, create var for this */

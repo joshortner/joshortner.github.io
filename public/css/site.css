@@ -89,8 +89,7 @@
     "left middle right";
 }
 
-/* screen upto 500px */
-@media (max-width: 500px){
+@media (max-width: 800px){
   .footer-body {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;

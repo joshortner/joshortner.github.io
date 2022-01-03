@@ -63,14 +63,14 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
-  min-height: calc(100% - 150px); /* TO DO: 100px refers to footer height, create var for this */
+  min-height: calc(100% - 300px); /* TO DO: 100px refers to footer height, create var for this */
   height: auto;
 }
 
-@media (max-width: 800px){
+@media (min-width: 800px){
 
   .wrap {
-    min-height: calc(100% - 300px); /* TO DO: 100px refers to footer height, create var for this */
+    min-height: calc(100% - 150px); /* TO DO: 100px refers to footer height, create var for this */
   }
 
 }

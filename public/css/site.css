@@ -53,7 +53,7 @@
 
   left: 0;
   bottom: 0;
-  height: 150px;
+  height: 300px;
   width: 100%;
   overflow: hidden;
 }
@@ -82,25 +82,28 @@
   color: #828282;
   font-size: 15px;
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  grid-template-areas: 
-    "left middle right";
-}
 
-@media (max-width: 800px){
-  .footer-body {
-    grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
     grid-template-areas: 
       "left"
       "middle"
       "right";
+
+  
+}
+
+@media (min-width: 800px){
+  .footer-body {
+    grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "left middle right";
   }
 
   .footer {
-    height: 300px;
+    height: 150px;
   }
 }
 

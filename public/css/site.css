@@ -60,6 +60,7 @@
 
 .footer-container {
   display: grid;
+  padding-top: 30px;
   height: 100%;
   width: 50%;
   margin: auto;

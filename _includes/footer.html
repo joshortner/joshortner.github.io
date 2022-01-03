@@ -5,8 +5,11 @@
     </div>
     <div class="footer-body">
       <div class="footer-body-left">
-        Left
+        {{ site.author.name }}
+        <br/>
+        {{ site.author.email }}
       </div>
+
       <div class="footer-body-middle">
         <ul>
         {% if site.social.github_username %}

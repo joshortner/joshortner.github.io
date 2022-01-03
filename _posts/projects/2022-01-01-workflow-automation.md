@@ -5,7 +5,7 @@ type: project
 permalink: workflow-automation-project
 ---
 
-The following is the README.md from my Workflow Automation project. The goal of the project is to consolidate automation scripts in a single Python package that I can maintain and have access to from any machine. [Here's](https://github.com/joshortner/WorkflowAutomation) a link to the GitHub page.
+The following is the README.md from my Workflow Automation project. The goal of the project is to maintain a single Python package where I can put scripts that help automate tasks I find myself doing often. For now it's only available on the Test PyPI repository. When it matures however, I may move it to the real PyPi repo. [Here's](https://github.com/joshortner/WorkflowAutomation) a link to the GitHub page.
 
 ---
 
@@ -15,17 +15,17 @@ The following is the README.md from my Workflow Automation project. The goal of 
 
 This package contains programs to automate some of the things I find myself doing often.
 
-## cmake-man
+## Installation
 
-cmake-man is a CLI program to manage CMake projects without having to hand-edit a CMakeLists.txt. Its based off of my personal experience using CMake. The project structure is defined below.
-
-### Installation
-
-Use the package manager pip to install cmake-man
+Use the package manager pip to install workflow-automation package
 
 ```bash
 pip install -i https://test.pypi.org/simple/ workflow-automation-pkg-joshortner
 ```
+
+## cmake-man
+
+cmake-man is a CLI program to manage CMake projects without having to hand-edit a CMakeLists.txt. Its based off of my personal experience using CMake. The functionality and project structure is defined below.
 
 ### Usage
 

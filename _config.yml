@@ -20,9 +20,9 @@
 
 title: Josh's Site
 author:
-  name: GitHub User
-  email: your-email@domain.com
-#email: jlortner@gmail.com
+  name: Josh Ortner
+  email: jlortner@gmail.com
+  
 description: >- # this means to ignore newlines until "baseurl:"
   A site to showcase what I'm learning and working on.
 baseurl: "" # the subpath of your site, e.g. /blog

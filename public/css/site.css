@@ -50,22 +50,22 @@
 
 .footer {
   border-top: 1px solid #eee;
-  /*padding: 30px 0;*/
+
   left: 0;
   bottom: 0;
-  height: 200px;
+  height: 150px;
   width: 100%;
   overflow: hidden;
 }
 
 .footer-container {
   display: grid;
-  padding-top: 30px;
-  height: 100%;
+  padding-top: 20px;
+  height: auto;
   width: 50%;
   margin: auto;
   grid-template-rows: 50px calc(100% - 50px);
-  grid-template-columns: 1fr;
+  grid-template-columns: 100%;
   grid-gap: 20px;
   grid-template-areas: 
     "heading"
@@ -74,6 +74,7 @@
 
 .footer-heading {
   grid-area: heading;
+  
 }
 
 .footer-body {
@@ -86,6 +87,22 @@
   grid-gap: 20px;
   grid-template-areas: 
     "left middle right";
+}
+
+/* screen upto 500px */
+@media (max-width: 500px){
+  .footer-body {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "left"
+      "middle"
+      "right";
+  }
+
+  .footer {
+    height: 300px;
+  }
 }
 
 .footer-body-left {

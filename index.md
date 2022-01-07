@@ -7,4 +7,6 @@
 layout: home
 ---
 
-Hey! My name is Josh Ortner. This is my website. This is my resume (link to resume). Here, I write about about the topics in Computer Science that I'm most interested in. That tends to be Computer Graphics, Machine Learning, and Web Development.
+Hey! My name is Josh Ortner. This is my website. Here, I write about about the topics in Computer Science that I'm most curious about. Those topics tend to be Computer Graphics, Backend Development, and Machine Learning.
+
+I have an Undergraduate degree in Computer Science, and a year of experience conducting AI/Data Science research with two national labs: [Oak Ridge National Lab](https://www.ornl.gov/) and [Los Alamos National Lab](https://www.lanl.gov/). Here's my resume if you're interested in learning more about my experience.

@@ -36,10 +36,10 @@ The most basic components of a ray tracer:
 - Camera (a method to define the angle at which the ray passes through the pixel)
 - Object
 
-The Steps:
-1) Calculate the ray from the eye to the pixel
-2) Determine which objects the ray intersects
-3) Compute a color for the intersection point
+The Steps: 
+1. Calculate the ray from the eye to the pixel 
+2. Determine which objects the ray intersects 
+3. Compute a color for the intersection point
 
 ## 2.2 The Ray  
 

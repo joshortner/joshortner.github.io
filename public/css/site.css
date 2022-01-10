@@ -22,14 +22,48 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   border-top: 1px solid #eee;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: 
+    ". posts-header ."
+    ". posts-list .";
 }
+
+.posts-lists-header {
+  text-align: center;
+  grid-area: posts-header;
+  margin-bottom: 1rem;
+}
+
 .posts-lists-posts {
+  grid-area: posts-list;
   padding-left: 0;
   list-style: none;
 }
 .posts-lists-posts h3 {
   margin-top: 0;
 }
+
+.posts-lists-posts li {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-areas: 
+    ". post-image ."
+    ". post-title .";
+}
+
+.posts-list-img-container {
+  grid-area: post-image;
+  margin: auto;
+}
+
+.posts-lists-posts li h3 {
+  grid-area: post-title;
+}
+
 .posts-lists-posts li small {
   font-size: 75%;
   color: #999;
@@ -60,7 +94,7 @@
 
 .footer-container {
   display: grid;
-  padding-top: 20px;
+  padding-top: 15px;
   height: auto;
   width: 50%;
   margin: auto;

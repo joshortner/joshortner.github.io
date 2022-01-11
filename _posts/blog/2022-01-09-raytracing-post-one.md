@@ -342,7 +342,7 @@ bool HitSphere
 
 # 4. A Sphere
 
-Here's an image of the output so far. There is a gradient background and two spheres, who's color is derived from the normal like this:
+Here's an image of the output so far. There is a gradient background and two spheres. The color's are derived from the surface normals like this:
 
 {% highlight c++ %}
 ...

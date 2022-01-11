@@ -36,10 +36,10 @@ The most basic components of a ray tracer:
 - Camera (a method to define the angle at which the ray passes through the pixel)
 - Object
 
-The Steps:
-1) Calculate the ray from the eye to the pixel
-2) Determine which objects the ray intersects
-3) Compute a color for the intersection point
+The Steps: 
+1. Calculate the ray from the eye to the pixel 
+2. Determine which objects the ray intersects 
+3. Compute a color for the intersection point
 
 ## 2.2 The Ray  
 
@@ -342,7 +342,7 @@ bool HitSphere
 
 # 4. A Sphere
 
-Here's an image of the output so far. There is a gradient background and two spheres, who's color is derived from the normal like this:
+Here's an image of the output so far. There is a gradient background and two spheres. The color's are derived from the surface normals like this:
 
 {% highlight c++ %}
 ...

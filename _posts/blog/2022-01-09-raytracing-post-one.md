@@ -13,9 +13,9 @@ useimage: /public/media/rtp1/img.jpg
 
 This is the first post in a series where I will document my progress learning the ins and outs of ray tracing.
 
-My short term goal is simply to learn more about ray tracing because I'm curious. I'll start by working through each of the books in the RTIOW[^fn1] series. My long term (maybe overly ambitious) goal is to develop a real-time ray tracing graphics engine for game development. The focus right now though is on working through the basics, real-time ray tracing and hardcore optimizations can come later when I gain a better sense of the basic features and existing standard optimization approaches.
+My short term goal is simply to learn more about ray tracing because I'm curious. I'll start by working through each of the books in the RTIOW[^fn1] series. My long term (maybe overly ambitious) goal is to develop a real-time ray tracing graphics engine for game development. Because my experience with ray tracing is minimal right now though, I won't spend much energy thinking about real-time ray tracing or serious optimization until I work through all three books in the RTIOW series. Once I have a good sense of the required features and existing standard optimization approaches, I'll begin to mold the code to suit my goals.  
 
-For now these posts will take the form of notes I'm taking on the sources I'm reading. RTIOW will be the main guide to get all of the basic features implemented. I'm also reading through some of the papers in the first volume of Ray Tracing Gems[^fn2], so there may be tangents to summarize what I'm learning there.
+For now these posts will take the form of notes I'm taking on the sources I'm reading. RTIOW will be the main guide for now until I get the basic features of implemented. I'm also reading through some of the papers in the first volume of Ray Tracing Gems[^fn2], so there may be tangents to summarize what I'm learning there.
 
 Without further ado...
 

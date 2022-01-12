@@ -52,6 +52,7 @@
   grid-template-areas: 
     ". post-image ."
     ". post-title .";
+  padding-top: 15px;
 }
 
 .posts-list-img-container {

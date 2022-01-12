@@ -177,7 +177,7 @@ struct Hittable
 
 {% endhighlight %}
 
-The Hit function in the Hittable struct simply checks the Type data member with a switch statement and calls the Hit function on the appropriate union data member. Another solution to this problem is to make Hittable an abstract base class and then specific geometries like a sphere or cube would derive from it and provide an implementation of the hit function. The reason I'm not doing it that way is simply personal preference. I tend to write C++ in a more C style way, avoiding higher level language constructs unless there is a very clear reason not to. 
+The pattern above is referred to as a tagged union. The Hit function in the Hittable struct simply checks Type with a switch statement and calls the Hit function on the appropriate union data member. Another solution to this problem is to make Hittable an abstract base class and then specific geometries like a sphere or cube would derive from it and provide an implementation of the hit function. The reason I'm not doing it that way is simply personal preference. I tend to write C++ in a more C style way, avoiding higher level language constructs unless there is a very clear reason not to. 
 
 ### 2.5.1 Ray-Sphere Intersection
 

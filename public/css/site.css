@@ -16,6 +16,10 @@
   }
 }*/
 
+p {
+  text-align: justify;
+}
+
 /* posts-lists */
 .posts-lists {
   padding-top: 2rem;

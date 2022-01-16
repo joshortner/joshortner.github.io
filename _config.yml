@@ -41,6 +41,7 @@ remote_theme: poole/lanyon
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-scholar
 
 markdown: kramdown
 

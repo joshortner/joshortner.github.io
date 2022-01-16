@@ -7,11 +7,7 @@
             {% if post.type == "blog"%}
                 <li>
                     
-                    {% if post.useimage %}
-                    <div class="posts-list-img-container">
-                        <image style="max-width: 300px;" src="{{site.url}}{{post.useimage}}"></image>
-                    </div>
-                    {% endif %}
+                    
                     
                     <h3>
                     <a href="{{ site.baseurl }}{{ post.url }}">
@@ -19,6 +15,12 @@
                         <small>{{ post.date | date_to_string }}</small>
                     </a>
                     </h3>
+
+                    {% if post.useimage %}
+                    <div class="posts-list-img-container">
+                        <image style="max-width: 300px;" src="{{site.url}}{{post.useimage}}"></image>
+                    </div>
+                    {% endif %}
                 </li>
             {% endif %}
         {% endfor %}

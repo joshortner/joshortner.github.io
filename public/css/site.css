@@ -20,6 +20,10 @@ p, li {
   text-align: justify;
 }
 
+a {
+  text-align: left;
+}
+
 /* posts-lists */
 .posts-lists {
   padding-top: 2rem;
@@ -54,8 +58,8 @@ p, li {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr auto 1fr;
   grid-template-areas: 
-    ". post-image ."
-    ". post-title .";
+    ". post-title ."
+    ". post-image .";
   padding-top: 15px;
 }
 

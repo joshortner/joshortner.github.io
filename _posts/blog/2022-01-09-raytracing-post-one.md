@@ -7,6 +7,9 @@ usemathjax: true
 useimage: /public/media/rtp1/img.jpg
 ---
 
+* TOC
+{:toc}
+
 # 1. Intro
 
 ## 1.1 The Purpose of this Post

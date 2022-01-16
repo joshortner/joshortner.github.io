@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ray Tracing Journey - P1
+title: Ray Tracing Journey - Pt1
 type: blog
 permalink: raytracing-part-one
 usemathjax: true

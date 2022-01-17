@@ -1,0 +1,208 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --main-font-size-small: 13.5px;
+    --main-font-size-medium: 15px;
+    --main-font-size-large: 45px;    
+}
+
+html, body {
+    width: auto;
+    height: auto;
+    color: #444;
+    background: aliceblue;
+    font-family: "PT Serif", Georgia, "Times New Roman", serif;
+    font-size: 15px;
+}
+
+.main-container {
+    width: 8.5in;
+    /*height: 11in;*/
+    height: auto;
+    margin: auto;
+    background-color:#f5f5f5;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: var(--main-font-size-large);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    text-align: justify;
+}
+
+.inner {
+    width: calc(100% - 160px);
+    height: calc(100% - 20px);
+    padding: 10px 80px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: 
+        "mhead"
+        "mbody"
+        "mfoot";
+}
+
+/**** HEAD ****/
+
+.main-head {
+    grid-area: mhead;
+    margin: 2em 0 2em 0;
+
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-head-content {
+    grid-area: mheadcontent;
+    width: 100%;
+    height: calc(100% - 2px);
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "head-left head-right";
+}
+
+.main-head-left {
+    grid-area: head-left;
+}
+
+.main-head-right {
+    grid-area: head-right;
+    text-align: right;
+    padding-top: 8px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+}
+
+/**** BODY ****/
+
+.main-body {
+    grid-area: mbody;
+}
+
+.main-body-content {
+    grid-area: mbodycontent;
+    width: 100%;
+    height: calc(100% - 2px);
+}
+
+/**** FOOT ****/
+
+.main-foot {
+    grid-area: mfoot;
+}
+
+.main-foot-content {
+    grid-area: mfootcontent;
+}
+
+/**** SECTION ****/
+
+.section {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "section-name section-content";
+}
+
+.section-name {
+    grid-area: section-name;
+}
+
+.section-name h2 {
+    font-size: 150%;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.section-content {
+    grid-area: section-content;
+}
+
+.section-content p {
+    font-size: var(--main-font-size-medium);
+}
+
+/**** EDUCATION ****/
+
+/**** JOB ****/
+
+.job {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "job-company  job-date-range"
+        "job-title job-date-range"
+        "job-department job-date-range"
+        "job-body job-body";
+}
+
+.last {
+    border: none;
+}
+
+.job .company {
+    grid-area: job-company;
+}
+
+.job .title {
+    grid-area: job-title;
+    font-size: var(--main-font-size-medium);
+}
+
+.job .department {
+    grid-area: job-department;
+    font-size: var(--main-font-size-small);
+}
+
+.job .date-range { 
+    grid-area: job-date-range;
+    font-size: var(--main-font-size-small);
+}
+
+.job .body {
+    grid-area: job-body;
+    font-size: var(--main-font-size-small);
+    margin: 0.75em 0 1.5em 0;
+}
+
+.job .body li {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.job .body ul {
+    list-style-position: inside;
+}
+
+.job .body ul ul {
+    padding-left: 40px;
+}

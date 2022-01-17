@@ -70,6 +70,7 @@ a {
 
 .posts-lists-posts li h3 {
   grid-area: post-title;
+  text-align: center;
 }
 
 .posts-lists-posts li small {

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Ray Tracing Journey - Pt1
+title: Ray Tracing in One Weekend
+subtitle: Ray Tracing Journey - Pt1
 type: blog
 permalink: raytracing-part-one
 usemathjax: true

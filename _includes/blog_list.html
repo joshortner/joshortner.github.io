@@ -7,11 +7,16 @@
             {% if post.type == "blog"%}
                 <li>
                     
-                    
-                    
                     <h3>
                     <a href="{{ site.baseurl }}{{ post.url }}">
                         {{ post.title }}
+                        <br>
+
+                        {% if post.subtitle %}
+                            <small>{{ post.subtitle }}</small>
+                            <br>
+                        {% endif %}
+
                         <small>{{ post.date | date_to_string }}</small>
                     </a>
                     </h3>

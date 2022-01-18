@@ -4,13 +4,15 @@
     padding: 0px;
 }
 
+
+
 :root {
     --main-font-size-small: 13.5px;
     --main-font-size-medium: 15px;
     --main-font-size-large: 45px;    
 }
 
-html, body {
+body {
     width: auto;
     height: auto;
     color: #444;
@@ -42,7 +44,7 @@ p {
 }
 
 .inner {
-    width: calc(100% - 100px);
+    /*width: calc(100% - 100px);*/
     height: calc(100% - 20px);
     padding: 10px 50px;
 

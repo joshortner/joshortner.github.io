@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Workflow Automation Project
+title: Workflow Automation
+subtitle: A Python Package
 type: project
 permalink: workflow-automation-project
 ---

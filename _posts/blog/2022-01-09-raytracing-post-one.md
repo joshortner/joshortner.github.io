@@ -228,7 +228,7 @@ $$t^2\mathbf{b} \cdot \mathbf{b} + 2t\mathbf{b} \cdot (\mathbf{A} - \mathbf{C}) 
 
 This is a quadratic equation with one unknown $$t$$ and can be solved using the good ole quadratic equation: 
 
-$$x = \frac {-b \pm \sqrt {b^2 - 4ac}}{2a}$$.
+$$t = \frac {-b \pm \sqrt {b^2 - 4ac}}{2a}$$.
 {: style="text-align: center;" }
 
 The discriminant describes the nature of the intersection:

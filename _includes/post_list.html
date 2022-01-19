@@ -1,0 +1,24 @@
+<div class="posts-lists">
+    {% if include.listtype == "blog" %}
+        <h2 class="posts-lists-header">Blog posts</h2>
+    {% endif %}
+
+    {% if include.listtype == "project" %}
+        <h2 class="posts-lists-header">Project Writeups</h2>
+    {% endif %}
+
+    <p></p>
+
+    <ul class="posts-lists-posts">
+        {% for post in site.posts %}
+            {% if include.listtype == "blog" and post.type == "blog" %}
+                {% include post_list_element.html %}
+
+            {% elsif include.listtype == "project" and post.type == "project" %}
+                {% include post_list_element.html %}
+                
+            {% endif %}
+
+        {% endfor %}
+    </ul>
+</div>

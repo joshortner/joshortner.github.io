@@ -4,13 +4,15 @@
     padding: 0px;
 }
 
+
+
 :root {
     --main-font-size-small: 13.5px;
     --main-font-size-medium: 15px;
     --main-font-size-large: 45px;    
 }
 
-html, body {
+body {
     width: auto;
     height: auto;
     color: #444;
@@ -42,17 +44,16 @@ p {
 }
 
 .inner {
-    width: calc(100% - 160px);
+    /*width: calc(100% - 100px);*/
     height: calc(100% - 20px);
-    padding: 10px 80px;
+    padding: 10px 50px;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 1fr auto;
     grid-template-areas: 
         "mhead"
-        "mbody"
-        "mfoot";
+        "mbody";
 }
 
 /**** HEAD ****/
@@ -147,6 +148,34 @@ a {
 }
 
 /**** EDUCATION ****/
+
+
+/**** SKILLS ****/
+
+.skills-content {
+    float: left;
+    width: 33.33%;
+}
+
+.skills-content p {
+    font-size: var(--main-font-size-small);
+    text-align: center;
+}
+
+.skills-content h2 {
+    text-align: center;
+}
+
+.skills-content-container {
+    padding: 8px 15px 0px 0px;
+}
+  
+/* Clear floats after the columns */
+.skills-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /**** JOB ****/
 

@@ -15,7 +15,7 @@ useimage: /public/media/rtp1/img.jpg
 
 ## 1.1 The Purpose of this Post
 
-This is the first post in a series where I will document my progress learning the ins and outs of ray tracing.
+This is the first post in a series where I'll document my progress learning the ins and outs of ray tracing.
 
 My short term goal is simply to learn more about ray tracing because I'm curious. I'll start by working through each of the books in the RTIOW[^fn1] series. My long term (maybe overly ambitious) goal is to develop a real-time ray tracing graphics engine for game development. The focus right now though is on working through the basics, real-time ray tracing and hardcore optimizations can come later when I gain a better sense of the basic features and existing standard optimization approaches.
 

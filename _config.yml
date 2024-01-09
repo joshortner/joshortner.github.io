@@ -46,6 +46,7 @@ markdown: kramdown
 
 pages: 
   - projects
+  - games
 
 sass:
     sass_dir: _sass

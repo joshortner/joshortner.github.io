@@ -7,4 +7,6 @@
 layout: home
 ---
 
-My name is Josh Ortner. I'm an Embedded Software Engineer at Los Alamos National Lab. My specialty is embedded software for space-based sensors. My coding interests outside of work center around computer graphics and game development. All of my projects and tech demos use a custom graphics/game dev framework called [Stella](https://gitlab.com/jortner0210/stella-game-engine). My resume is [here](https://joshortner.github.io/resume), my email is jlortner@gmail.com, and some of my projects are below.
+My name is Josh Ortner. I'm an Embedded Software Engineer at Los Alamos National Lab. My specialty is embedded software for space-based sensors. 
+
+My coding interests outside of work are centered around computer graphics and game development. All of my projects and tech demos use a custom graphics/game dev framework called [Stella](https://gitlab.com/jortner0210/stella-game-engine). My resume is [here](https://joshortner.github.io/resume), my email is jlortner@gmail.com, and some of my projects are below.

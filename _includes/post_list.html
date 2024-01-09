@@ -21,6 +21,9 @@
             {% elsif include.listtype == "project" and post.type == "project" %}
                 {% include post_list_element.html %}
                 
+            {% elsif include.listtype == "game" and post.type == "game" %}
+                {% include post_list_element.html %}
+
             {% endif %}
 
         {% endfor %}

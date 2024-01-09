@@ -2,7 +2,7 @@
 layout: post
 title: Workflow Automation
 subtitle: A Python Package
-type: project
+type: tech_demo
 permalink: workflow-automation-project
 ---
 

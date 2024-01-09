@@ -1,10 +1,14 @@
 <div class="posts-lists">
-    {% if include.listtype == "game" %}
-        <h2 class="posts-lists-header">Games</h2>
+    {% if include.listtype == "blog" %}
+        <h2 class="posts-lists-header">Blog posts</h2>
     {% endif %}
 
-    {% if include.listtype == "tech_demo" %}
-        <h2 class="posts-lists-header">Tech Demos</h2>
+    {% if include.listtype == "project" %}
+        <h2 class="posts-lists-header">Project Writeups</h2>
+    {% endif %}
+
+    {% if include.listtype == "game" %}
+        <h2 class="posts-lists-header">Games</h2>
     {% endif %}
 
     <p></p>
